@@ -1,4 +1,4 @@
-package interfaces.model.entities;
+package interfaces.carrental.model.entities;
 
 import java.time.LocalDateTime;
 

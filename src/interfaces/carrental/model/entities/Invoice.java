@@ -1,4 +1,4 @@
-package interfaces.model.entities;
+package interfaces.carrental.model.entities;
 
 public class Invoice {
 

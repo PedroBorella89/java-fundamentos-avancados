@@ -1,7 +1,7 @@
-package interfaces.model.services;
+package interfaces.carrental.model.services;
 
-import interfaces.model.entities.CarRental;
-import interfaces.model.entities.Invoice;
+import interfaces.carrental.model.entities.CarRental;
+import interfaces.carrental.model.entities.Invoice;
 
 import java.time.Duration;
 

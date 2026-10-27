@@ -1,16 +1,16 @@
-package interfaces.application;
+package interfaces.carrental.application;
 
-import interfaces.model.entities.CarRental;
-import interfaces.model.entities.Vehicle;
-import interfaces.model.services.BrazilTaxService;
-import interfaces.model.services.RentalService;
+import interfaces.carrental.model.entities.CarRental;
+import interfaces.carrental.model.entities.Vehicle;
+import interfaces.carrental.model.services.BrazilTaxService;
+import interfaces.carrental.model.services.RentalService;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Program {
+public class ProgramCarRental {
 
     public static void main(String[] args) {
 

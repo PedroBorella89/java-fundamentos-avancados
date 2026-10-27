@@ -1,4 +1,4 @@
-package interfaces.model.services;
+package interfaces.carrental.model.services;
 
 public class BrazilTaxService implements TaxService {
 
