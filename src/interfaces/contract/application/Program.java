@@ -3,7 +3,6 @@ package interfaces.contract.application;
 import interfaces.contract.model.entities.Contract;
 import interfaces.contract.model.entities.Installment;
 import interfaces.contract.model.services.ContractService;
-import interfaces.contract.model.services.OnlinePaymentService;
 import interfaces.contract.model.services.PayPalService;
 
 import java.time.LocalDate;
@@ -38,9 +37,7 @@ public class Program {
         System.out.println();
         System.out.println("===== INVOICES =====");
         for (Installment installment : contract01.getInstallments()) {
-            System.out.println(installment.getDueDate().format(dtf)
-                    + " - "
-                    + String.format("$ %.2f", installment.getAmount()));
+            System.out.println(installment);
         }
 
         sc.close();
